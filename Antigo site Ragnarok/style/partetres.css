@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(../imagens/fundo3.jpg);
+    background-attachment: fixed; /* Imagem fica fixa, não rola junto para baixo quando desce */
+    background-size: 100%; /* Imagem ajusta conforme o tamanho da tela */
+    background-repeat: no-repeat;
+    background-color: black;
+    min-height: auto;
+}
+
+figure.ferreiraIMG img {
+    position: absolute;
+    top: -2%;
+    left: 2%;
+    width: 46.8%;
+    height: auto;
+}
+
+div nav.Enc1 {
+    color: white;
+    width: 420px;
+    height: 420px;
+    border-color: rgb(240, 255, 24);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    background-color: rgb(18, 14, 240);
+    opacity: 0.5;
+}
+
+div nav.Enc2 {
+    color: white;
+    width: 360px;
+    height: 70px;
+    border-color: rgb(248, 248, 245);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    position: absolute;
+    top: 35%;
+    left: 62%;
+    background-color: rgb(243, 252, 116);
+    opacity: 0.7;
+}
+
+div nav.Enc3 {
+    color: white;
+    width: 360px;
+    height: 70px;
+    border-color: rgb(248, 248, 245);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    position: absolute;
+    top: 58%;
+    left: 62%;
+    background-color: rgb(243, 252, 116);
+    opacity: 0.7;
+}
+
+div nav.Enc4 {
+    color: white;
+    width: 172px;
+    height: 54px;
+    border-color: rgb(19, 15, 248);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    position: absolute;
+    top: 74%;
+    left: 76%;
+    background-color: rgb(234, 250, 7);
+    opacity: 0.8;
+}
+
+div nav.Enc5 {
+    color: white;
+    width: 142px;
+    height: 54px;
+    border-color: rgb(19, 15, 248);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    position: absolute;
+    top: 21%;
+    left: 80%;
+    background-color: rgb(220, 126, 243);
+    opacity: 0.9;
+}
+
+div nav.usuario p {
+    position: absolute;
+    top: 24%;
+    left: 62%;
+    color: white;
+    font-family: Bradley Hand, cursive;
+    font-size: 25px;
+
+}
+
+div nav.senha p {
+    position: absolute;
+    top: 46%;
+    left: 62%;
+    color: white;
+    font-family: Bradley Hand, cursive;
+    font-size: 25px;
+
+}
+
+div nav.cadastrar p {
+    position: absolute;
+    top: 18%;
+    left: 81%;
+    color: white;
+    font-family: Bradley Hand, cursive;
+    font-size: 25px;
+
+}
+
+div nav.logar p {
+    position: absolute;
+    top: 71.2%;
+    left: 80%;
+    color: rgb(19, 15, 238);
+    font-family: Bradley Hand, cursive;
+    font-size: 26px;
+
+}

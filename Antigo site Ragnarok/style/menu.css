@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* Menu */
+
+
+/* Formatação do Menu */
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -15px;
+    left: 70px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: rgb(238, 238, 16);
+    padding: 10px;
+    margin: 4px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover {
+    background-color: #796919;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+/* Edição do link menu */
+
+nav#menu a { 
+    color:rgb(44, 44, 23);
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: white;
+}
